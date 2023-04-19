@@ -140,7 +140,7 @@ const Popular = () => {
 			<div className="container">
 				<div
 					id="categories"
-					className="title rounded-sm flex items-center relative p-3 text-start text-2xl font-semibold text-white mb-2 bg-red-600 bg-[url('../assets/bg-black.png')]"
+					className="title rounded-sm drop-shadow-lg shadow-lg flex items-center relative p-3 text-start text-2xl font-semibold text-white mb-2 bg-red-600 bg-[url('../assets/bg-black.png')]"
 				>
 					<h3>Get food by categories</h3>
 				</div>
@@ -191,8 +191,8 @@ const Popular = () => {
 					{state != 0 &&
 						state.meals.map(item => (
 							<Link key={item.idMeal} href={`meal/${item.idMeal}`}>
-								<div className="flex flex-col relative">
-									<div className="overlay absolute w-full h-3/6 bottom-0 bg-gradient-to-t from-black to-transparent rounded-md"></div>
+								<div className="flex flex-col relative hover:z-50 hover:scale-125 ease-in duration-300 drop-shadow-lg shadow-lg">
+									<div className="overlay absolute w-full h-3/6 bottom-0 bg-gradient-to-t  from-black to-transparent rounded-md"></div>
 									<span className="absolute bg-gray-200 shadow-md rounded-[3px] text-md font-medium left-2 top-2 px-2 py-0 z-20">
 										{meal}
 									</span>
