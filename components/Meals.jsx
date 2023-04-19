@@ -140,7 +140,7 @@ const Popular = () => {
 			<div className="container">
 				<div
 					id="categories"
-					className="title rounded-sm flex items-center relative p-3 text-start text-2xl font-semibold text-white mb-2 bg-red-600 bg-[url('http://www.ansonika.com/fooyes/img/pattern.svg')]"
+					className="title rounded-sm flex items-center relative p-3 text-start text-2xl font-semibold text-white mb-2 bg-red-600 bg-[url('../assets/bg-black.png')]"
 				>
 					<h3>Get food by categories</h3>
 				</div>
