@@ -3,11 +3,11 @@ import Areas from "@/components/Areas";
 import Hero from "@/components/Hero";
 
 export default function Home() {
-	return (
-		<>
-			<Hero />
-			<Areas />
-			<Meals />
-		</>
-	);
+  return (
+    <div className="shadow-inner flex flex-col items-center bg-[#fffffff1]">
+      <Hero />
+      <Areas />
+      <Meals />
+    </div>
+  );
 }

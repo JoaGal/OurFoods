@@ -59,12 +59,9 @@ const Popular = () => {
 	];
 
 	return (
-		<div className="my-[5rem]">
-			<div className="container">
+			<div className="container my-[5rem]">
 				<div className="title relative text-center text-3xl font-semibold text-gray-800 mb-4">
-					<span className="absolute w-16 h-[2px] bg-red-600 bottom-12 left-2/4 translate-x-[-50%] z-10"></span>
-					<span className="absolute w-40 h-[2px] bg-gray-300 bottom-12 left-2/4 translate-x-[-50%] z-0"></span>
-					<h3>meals by Area</h3>
+					<h3 className="bg-[url('../assets/bg-black.png')] flex text-xl sm:text-3xl text-stone-50 bg-[#ff0707] p-3">meals by Area</h3>
 				</div>
 				<Swiper
 					className="mySwiper"
@@ -107,7 +104,6 @@ const Popular = () => {
 					))}
 				</Swiper>
 			</div>
-		</div>
 	);
 };
 

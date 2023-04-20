@@ -21,7 +21,8 @@ body {
 	background-color: $clr-white;
 	padding: 0 !important;
 	overflow: auto !important;
-	background-color: #fff;
+	background-color: #ffffff;
+	background-image: url('../assets/bg-red.png');
 }
 
 h1,
@@ -184,8 +185,10 @@ a {
 .container {
 	padding-left: 0.6rem;
 	padding-right: 0.6rem;
-	margin-left: auto;
-	margin-right: auto;
+}
+
+.container-global{
+	width: auto;
 }
 
 /* Very Small */

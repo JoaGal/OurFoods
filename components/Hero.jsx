@@ -22,11 +22,11 @@ const Single = () => {
   };
 
   return (
-    <div className="landingContainer shadow-inner rounded-sm bg-[#e4e4e49e] relative  bg-center max-w-[120rem] m-auto bg-[url('../assets/bg-red.png')] ease-linear duration-300">
+    <div className="landingContainer mt-4 flex relative max-w-[120rem] ease-linear duration-300">
       <div className="container">
         <div className="h-[30rem] text-center flex flex-col justify-center gap-3 lg:mr-[30rem] lg:text-left ease-linear duration-300">
           <div className="flex ">
-            <h1 className="text-3xl drop-shadow-lg p-1 rounded-lg shadow-lg font-bold text-gray-800 bg-[#ffffff]">
+            <h1 className="text-3xl drop-shadow-lg p-3 bg-[url('../assets/bg-black.png')] rounded-sm shadow-lg font-bold text-stone-50 bg-[#ff0707]">
               Search for specific Foods
             </h1>
           </div>

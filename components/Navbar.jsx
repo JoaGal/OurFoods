@@ -16,7 +16,7 @@ const Navbar = () => {
 	};
 
 	return (
-		<nav className="h-16 flex items-center">
+		<nav className="h-16 flex items-center justify-center bg-[#ffffff] drop-shadow-lg shadow-lg">
 			<div className="container">
 				<div className="navContainer flex items-center justify-between">
 					<div className="flex items-center">
