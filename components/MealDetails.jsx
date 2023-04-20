@@ -61,7 +61,7 @@ const MealDetails = () => {
                 alt=""
               />
             </div>
-            <h1 className="text-3xl p-3 bg-[url('../assets/bg-black.png')] rounded-sm shadow-lg drop-shadow-lg font-bold text-stone-50 bg-[#ff0707] mt-3">
+            <h1 className="text-3xl p-3 bg-[url('../assets/bg-black.png')] rounded-sm shadow-lg drop-shadow-lg font-bold text-stone-50 bg-red-600 mt-3">
               {state.meals[0].strMeal}
             </h1>
             <div>

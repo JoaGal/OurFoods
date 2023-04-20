@@ -26,7 +26,7 @@ const Single = () => {
       <div className="container">
         <div className="h-[30rem] text-center flex flex-col justify-center gap-3 lg:mr-[30rem] lg:text-left ease-linear duration-300">
           <div className="flex ">
-            <h1 className="text-3xl drop-shadow-lg p-3 bg-[url('../assets/bg-black.png')] rounded-sm shadow-lg font-bold text-stone-50 bg-[#ff0707]">
+            <h1 className="text-3xl p-3 rounded-sm shadow-lg drop-shadow-lg font-bold text-stone-50 bg-red-600 bg-[url('../assets/bg-black.png')]">
               Search for specific Foods
             </h1>
           </div>

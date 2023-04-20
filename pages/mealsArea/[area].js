@@ -21,7 +21,7 @@ const Area = () => {
     <div className="shadow-inner flex flex-col items-center bg-[#fffffff1]">
       <div className="container my-10 lg:my-20">
         <div className="title relative text-center text-3xl font-semibold text-gray-800 my-4 lg:my-8">
-          <h3 className="text-3xl p-3 bg-[url('../assets/bg-black.png')] rounded-sm shadow-lg drop-shadow-lg font-bold text-stone-50 bg-[#ff0707]">{area} meals</h3>
+          <h3 className="text-3xl p-3 bg-[url('../assets/bg-black.png')] rounded-sm shadow-lg drop-shadow-lg font-bold text-stone-50 bg-red-600">{area} meals</h3>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 mb-4">
           {meals != 0 &&

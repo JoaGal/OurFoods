@@ -139,7 +139,7 @@ const Popular = () => {
 			<div className="container my-[5rem]">
 				<div
 					id="categories"
-					className="rounded-sm drop-shadow-lg shadow-lg flex items-center relative p-3 text-xl sm:text-3xl font-semibold text-white mb-2 bg-red-600 bg-[url('../assets/bg-black.png')]"
+					className="rounded-sm drop-shadow-lg shadow-lg flex items-center relative p-3 text-xl sm:text-3xl font-semibold text-stone-50 mb-2 bg-red-600 bg-[url('../assets/bg-black.png')]"
 				>
 					<h3>Get food by categories</h3>
 				</div>

@@ -61,7 +61,7 @@ const Popular = () => {
 	return (
 			<div className="container my-[5rem]">
 				<div className="title relative text-center text-3xl font-semibold text-gray-800 mb-4">
-					<h3 className="bg-[url('../assets/bg-black.png')] flex text-xl sm:text-3xl text-stone-50 bg-[#ff0707] p-3">meals by Area</h3>
+					<h3 className="bg-[url('../assets/bg-black.png')] flex text-xl sm:text-3xl text-stone-50 bg-red-600 p-3">meals by Area</h3>
 				</div>
 				<Swiper
 					className="mySwiper"
